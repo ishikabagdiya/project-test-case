@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+		<class name="TestCases.logintestcases" />
+		<class name="TestCases.PimTestCase" />
+		<class name="TestCases.EpTestCase" />
+		<class name="TestCases.ContactTest" />
+		<class name="TestCases.Con2Test" />
+		<class name="TestCases.EmerTest" />
+		<class name="TestCases.AddnoTest" />
+		<class name="TestCases.DeleteTest" />
+		<class name="TestCases.ImmigrationtTest" />
+		<class name="TestCases.JobTest" />
+		<class name="TestCases.SalaryTest" />
+		<class name="TestCases.TaxTest" />
+		<class name="TestCases.MembershipTest" />
+		<class name="TestCases.LogoutTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
